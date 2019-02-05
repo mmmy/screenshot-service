@@ -1,0 +1,26 @@
+{
+  "name": "screenshot-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmmy/screenshot-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmmy/screenshot-service/issues"
+  },
+  "homepage": "https://github.com/mmmy/screenshot-service#readme",
+  "dependencies": {
+    "puppeteer": "^1.12.1",
+    "socks-proxy-agent": "^4.0.1",
+    "socks5-https-client": "^1.2.1",
+    "telegraf": "^3.27.0"
+  }
+}
