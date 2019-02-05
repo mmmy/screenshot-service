@@ -3,8 +3,6 @@ const Telegraf = require('telegraf')
 // const bot = new Telegraf(process.env.BOT_TOKEN)
 const fs = require('fs')
 const img = fs.readFileSync('./example.png')
-const SocksAgent = require('socks5-https-client/lib/Agent')
-const socksAgent = new SocksAgent({ socksHost: 'localhost', socksPort: 1080 });
 
 var SocksProxyAgent = require('socks-proxy-agent');
 var agent = new SocksProxyAgent('socks://127.0.0.1:1080');
